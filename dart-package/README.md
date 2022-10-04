@@ -1,13 +1,11 @@
--dart package
-
 ![Pubspec](assets/pubspec_general.png?raw=true "Pubspec")
-
-directory containing, at minimum a pubspec.yaml
+```
+directory containing at minimum a pubspec.yaml
 dart ecosystem uses packages to manage shared software (libraries & tools)
 pub package manager
 
 main package<- a<- b<- c
-*<-require
+ <- mean require
 
 immidiate dependencies = a
 transitive dependencies = b,c
@@ -63,5 +61,6 @@ dependencies:
   version: ^0.0.1
 
 located on
-%LOCALAPPDATA%\Pub\Cache
-.pub-cache in home directory
+ %LOCALAPPDATA%\Pub\Cache
+ .pub-cache in home directory
+```
